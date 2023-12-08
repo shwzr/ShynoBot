@@ -41,7 +41,7 @@
   git clone https://github.com/shwzr/ShynoBot.git
   cd ShynoBot
   npm install
-  pip3 install -r requirements.txt --break-system-packages
+  pip3 install -r requirements.txt
   ```
   
   III. Put your [Discord Bot token](https://discord.com/developers/applications) in `config.json`
