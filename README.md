@@ -37,10 +37,15 @@
   II. Open a terminal and run the following commands:
   ```
   apt update
-  apt install git python3 python3-pip npm
+  apt install git python3 python3-pip curl
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+  
+  export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+  nvm install 18.13.0
   git clone https://github.com/shwzr/ShynoBot.git
   cd ShynoBot
-  npm install
   pip3 install -r requirements.txt
   ```
   
