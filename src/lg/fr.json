@@ -66,9 +66,6 @@
         "setlogs_error1":"Cette commande doit être exécutée sur un serveur ou vous n'avez pas la permission administrateur sur le serveur !",
         "setlogs_result1":"Logs 📰",
         "setlogs_result2":"Salon défini comme salon de logs ✅",
-        "setboost_error1":"Cette commande doit être exécutée sur un serveur ou vous n'avez pas la permission administrateur sur le serveur !",
-        "setboost_result1":"Boost 🚀",
-        "setboost_result2":"Salon défini comme salon de boost ✅",
         "setrole_error1":"Vous n'avez pas la permission de gérer les rôles ou vous n'effectuez pas la commande sur un serveur !",
         "setrole_error2":"Ce rôle est unique à un bot et ne peut pas être attribué !",
         "setrole_error3":"La cible est invalide !",
@@ -146,14 +143,19 @@
         "translate_result1":"Translate 🌐",
         "translate_result2":"Texte original",
         "translate_result3":"Texte traduit",
-
+        "conv_error1":"Il n'est pas possible de convertir un format à un format identique !",
+        "conv_error2":"La conversion vers/depuis le morse est seulement possible avec le texte !",
+        "conv_error3":"Une erreur inattendue s'est produite !",
+        "conv_error4":"Une erreur inattendue s'est produite !",
+        "conv_result1":"Conv 🔀",
+        "conv_result2":"Format",
+        "conv_result3":"Format",
         "crypt_result1":"Encrypt 🔏",
         "crypt_result2":"Clé de décryptage",
         "crypt_result3":"Message crypté",
         "crypt_result4":"Decrypt 🔏",
         "crypt_result5":"Clé de cryptage",
         "crypt_result6":"Message décrypté",
-
         "birthday_error1":"Pseudo est nécessaire pour ajouter une plateforme !",
         "birthday_error2":"Le format de la date doit être JJ/MM !",
         "birthday_error3":"Vous n'avez pas attribué une date d'anniversaire à votre profil !",
@@ -164,6 +166,11 @@
         "birthday_result3":"Anniversaire 🎂",
         "birthday_result4":"Votre date d'anniversaire a bien été supprimée 🚮",
         "birthday_result5":"Anniversaire 🎂",
+        "die_error1":"Veuillez spécifier un nombre de faces entre 1 et 100 !",
+        "die_result1":"Dé 🎲",
+        "die_result2":"Vous avez lancé un dé à",
+        "die_result3":"faces",
+        "die_result4":"Face obtenue",
         "anime_error1":"Anime ⛩",
         "anime_error2":"La commande `$anime` est déjà activée dans ce salon !",
         "anime_error3":"Vous n'avez pas la permission de gérer les salons dans le salon ou vous n'effectuez pas la commande sur un serveur !",
@@ -331,7 +338,7 @@
                 "fields": [
                     {
                         "name": "",
-                        "value": "**```🛡️ COMMANDES MODERATION```**\n[Rappel d'épisode](https://gifyu.com/)\n`/release`\n[Ouvrir son stockage](https://gifyu.com/)\n`/mydeb`\n[Générer un QrCode](https://gifyu.com/)\n`/qrgen`"
+                        "value": "**```🛡️ COMMANDES MODERATION```**\n[Rappel d'épisode](https://gifyu.com/)\n`/release`\n[Ouvrir son stockage](https://gifyu.com/)\n`/mydeb`"
                     }
                 ]
             },
@@ -351,7 +358,7 @@
                 "fields": [
                     {
                         "name": "",
-                        "value": "**```🌟 COMMANDES ADMINISTRATION```**\n[Définir le salon de commandes musicales](https://gifyu.com/)\n`/setcommandzik`\n[Définir le salon d'écoute musicale](https://gifyu.com/)\n`/setlistenzik`\n[Définir le salon d'anniversaire](https://gifyu.com/)\n`/setbirthday`\n[Gérer des autoroles](https://gifyu.com/)\n`/autorole`\n[Gérer les flux RSS](https://gifyu.com/)\n`/rss`"
+                        "value": "**```🌟 COMMANDES ADMINISTRATION```**\n[Définir le salon de commandes musicales](https://gifyu.com/)\n`/setcommandzik`\n[Définir le salon d'écoute musicale](https://gifyu.com/)\n`/setlistenzik`\n[Définir le salon d'anniversaire](https://gifyu.com/)\n`/setbirthday`\n[Gérer des autoroles](https://gifyu.com/)\n`/autorole`\n[Assign a role](https://gifyu.com/)\n`/setrole`\n[Gérer les flux RSS](https://gifyu.com/)\n`/rss`"
                     }
                 ]
             },
@@ -361,7 +368,7 @@
                 "fields": [
                     {
                         "name": "",
-                        "value": "**```🎁 COMMANDES BONUS```**\n[Afficher infos anime/manga](https://s11.gifyu.com/images/tuto-anime-manga.png)\n`$anime/manga Titre`\n[Afficher profil utilisateur](https://s11.gifyu.com/images/tuto-profil.png)\n`$profil @user/user#0000/userid`\n[Chercher un wallpaper](https://s11.gifyu.com/images/tuto-wallpaper.png)\n`$wallpaper Titre`\n[Récup une image par type](https://gifyu.com/)\n`/pics_v(1/2)`\n[Générer un mot de passe](https://gifyu.com/)\n`/passgen`\n[Traduire un texte](https://gifyu.com/)\n`/translate`\n[(En/Dé)crypter un texte](https://gifyu.com/)\n`/crypt`"
+                        "value": "**```🎁 COMMANDES BONUS```**\n[Afficher infos anime/manga](https://s11.gifyu.com/images/tuto-anime-manga.png)\n`$anime/manga Titre`\n[Afficher profil utilisateur](https://s11.gifyu.com/images/tuto-profil.png)\n`$profil @user/user#0000/userid`\n[Chercher un wallpaper](https://s11.gifyu.com/images/tuto-wallpaper.png)\n`$wallpaper Titre`\n[Récup une image par type](https://gifyu.com/)\n`/pics_v(1/2)`\n[Générer un mot de passe](https://gifyu.com/)\n`/passgen`\n[Traduire un texte](https://gifyu.com/)\n`/translate`\n[Convertir une valeur d'un autre format](https://gifyu.com/)\n`/conv`\n[(En/Dé)crypter un texte](https://gifyu.com/)\n`/crypt`\n[Générer un QrCode](https://gifyu.com/)\n`/qrgen`"
                     }
                 ]
             },
@@ -371,7 +378,7 @@
                 "fields": [
                     {
                         "name": "",
-                        "value": "**```🎁 COMMANDES BONUS```**\n[Générer une image](https://gifyu.com/)\n`/imgen`\n[Associer un réseau au profil](https://gifyu.com/)\n`/resprofil`\n[Ecouter une zik](https://gifyu.com/)\n`$zikplay url-youtube`\n[Skip la zik](https://gifyu.com/)\n`$zikskip`\n[Arrêter la zik](https://gifyu.com/)\n`$zikstop`\n[Insérer votre date d'anniversaire](https://gifyu.com/)\n`/birthday`"
+                        "value": "**```🎁 COMMANDES BONUS```**\n[Raccourcir une URL](https://gifyu.com/)\n`/urlshort`\n[Générer une image](https://gifyu.com/)\n`/imgen`\n[Associer un réseau au profil](https://gifyu.com/)\n`/resprofil`\n[Ecouter une zik](https://gifyu.com/)\n`$zikplay url-youtube`\n[Skip la zik](https://gifyu.com/)\n`$zikskip`\n[Arrêter la zik](https://gifyu.com/)\n`$zikstop`\n[Insérer votre date d'anniversaire](https://gifyu.com/)\n`/birthday`\n[Lancer un dé virtuel](https://gifyu.com/)\n/die"
                     }
                 ]
             }
@@ -467,8 +474,7 @@
         "unlock_result1":"Le déverrouillage du salon a été effectué avec succès",
         "unlock_result2":"Salon dévérouillé 🔓",
         "purge_error1":"Vous n'avez pas la permission de gérer les salons ou vous n'effectuez pas la commande sur un serveur !",
-        "qrgen_error1":"Vous n'avez pas la permission de gérer les messages ou vous n'effectuez pas la commande sur un serveur !",
-        "qrgen_error2":"Une erreur est survenue !",
+        "qrgen_error1":"Une erreur est survenue ",
         "qrgen_result1":"QR Code 🔳",
         "giveaway_error1":"Tu n'as pas la permission de gérer les salons ou vous n'effectuez pas la commande sur un serveur !",
         "giveaway_error2":"Un giveaway est déjà en cours dans ce salon !",
@@ -477,6 +483,12 @@
         "giveaway_result3":"Nombre de gagnants:",
         "giveaway_result4":"Fin:",
         "giveaway_result5":"Giveaway créé avec succès !",
+        "poll_error1":"Tu n'as pas la permission de gérer les salons ou vous n'effectuez pas la commande sur un serveur !",
+        "poll_error2":"Vous devez spécifier au moins deux secteurs pour le sondage !",
+        "poll_error3":"Les options de sondage doivent être uniques !",
+        "poll_result1":"Question",
+        "poll_result2":"Durée",
+        "poll_result3":"minutes",
         "release_error1":"Vous n'avez pas la permission de gérer les messages ou vous n'effectuez pas la commande sur un serveur !",
         "release_error2":"Vous n'avez pas la permission de gérer les salons ou vous n'effectuez pas la commande sur un serveur !",
         "release_error3":"Veuillez fournir le nom d'une série, le jour, l'heure et le fuseau horaire !",
@@ -593,6 +605,10 @@
         "giveaway_error1":"Giveaway ❌",
         "giveaway_error2":"Le giveaway",
         "giveaway_error3":"a été annulé !",
+        "poll_result1":"Question",
+        "poll_result2":"Status",
+        "poll_result3":"Terminé",
+        "poll_result4":"Résultats du Sondage 📊",
         "release_result1":"Un nouvel épisode de",
         "release_result2":"est sorti !",
         "debls_result1":"Aucun fichier ou dossier trouvé.",
