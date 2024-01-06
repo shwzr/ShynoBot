@@ -308,7 +308,7 @@
                 "fields": [
                     {
                         "name": "",
-                        "value": "**```🛡️ COMMANDES MODERATION```**\n[(Un)Ban](https://gifyu.com/)\n`/(un)ban`\n[Kick](https://gifyu.com/)\n`/kick`\n[(Un)Mute](https://gifyu.com/)\n`/(un)mute`"
+                        "value": "**```🛡️ COMMANDES MODERATION```**\n[(Un)Ban](https://gifyu.com/)\n`/(un)ban`\n[Kick](https://gifyu.com/)\n`/kick`\n[(Un)Mute](https://gifyu.com/)\n`/(un)mute`\n[Créer un giveaway](https://s11.gifyu.com/images/tuto-giveaway.png)\n`/giveaway`\n[(Un)Lock un salon](https://gifyu.com/)\n`/(un)lock`\n[Refaire le salon](https://gifyu.com/)\n`/purge`"
                     }
                 ]
             },
@@ -318,7 +318,7 @@
                 "fields": [
                     {
                         "name": "",
-                        "value": "**```🛡️ COMMANDES MODERATION```**\n[Créer un giveaway](https://s11.gifyu.com/images/tuto-giveaway.png)\n`/giveaway`\n[(Un)Lock un salon](https://gifyu.com/)\n`/(un)lock`\n[Refaire le salon](https://gifyu.com/)\n`/purge`"
+                        "value": "**```🛡️ COMMANDES MODERATION```**\n[Msg](https://gifyu.com/)\n`/msg`\n[Msg déco](https://s12.gifyu.com/images/tuto-msgembed8edfb14a278642d7.png)\n`/msgembed`\n[Hook](https://gifyu.com/)\n`/webhookmsg`\n[Hook déco](https://gifyu.com/)\n`/webhookmsgembed`\n[Rappel d'épisode](https://gifyu.com/)\n`/release`\n[Ouvrir son stockage](https://gifyu.com/)\n`/mydeb`"
                     }
                 ]
             },
@@ -328,7 +328,7 @@
                 "fields": [
                     {
                         "name": "",
-                        "value": "**```🛡️ COMMANDES MODERATION```**\n[Msg](https://gifyu.com/)\n`/msg`\n[Msg déco](https://s12.gifyu.com/images/tuto-msgembed8edfb14a278642d7.png)\n`/msgembed`\n[Hook](https://gifyu.com/)\n`/webhookmsg`\n[Hook déco](https://gifyu.com/)\n`/webhookmsgembed`"
+                        "value": "**```🌟 COMMANDES ADMINISTRATION```**\n[Changer la langue du bot](https://gifyu.com/)\n`/setlanguage`\n[Changer la couleur du bot](https://gifyu.com/)\n`/setcolor`\n[Définir le salon de Bienvenue](https://gifyu.com/)\n`/setwelcome`\n[Définir le salon de Logs](https://gifyu.com/)\n`/setlogs`\n[Définir le salon de support](https://gifyu.com/)\n`/setticket`"
                     }
                 ]
             },
@@ -338,7 +338,7 @@
                 "fields": [
                     {
                         "name": "",
-                        "value": "**```🛡️ COMMANDES MODERATION```**\n[Rappel d'épisode](https://gifyu.com/)\n`/release`\n[Ouvrir son stockage](https://gifyu.com/)\n`/mydeb`"
+                        "value": "**```🌟 COMMANDES ADMINISTRATION```**\n[Définir le salon de commandes musicales](https://gifyu.com/)\n`/setcommandzik`\n[Définir le salon d'écoute musicale](https://gifyu.com/)\n`/setlistenzik`\n[Définir le salon d'anniversaire](https://gifyu.com/)\n`/setbirthday`\n[Gérer des autoroles](https://gifyu.com/)\n`/autorole`\n[Assign a role](https://gifyu.com/)\n`/setrole`\n[Gérer les flux RSS](https://gifyu.com/)\n`/rss`"
                     }
                 ]
             },
@@ -348,32 +348,12 @@
                 "fields": [
                     {
                         "name": "",
-                        "value": "**```🌟 COMMANDES ADMINISTRATION```**\n[Changer la langue du bot](https://gifyu.com/)\n`/setlanguage`\n[Changer la couleur du bot](https://gifyu.com/)\n`/setcolor`\n[Définir le salon de Bienvenue](https://gifyu.com/)\n`/setwelcome`\n[Définir le salon de Logs](https://gifyu.com/)\n`/setlogs`\n[Définir le salon de support](https://gifyu.com/)\n`/setticket`"
+                        "value": "**```🎁 COMMANDES BONUS```**\n[Afficher infos anime/manga](https://s11.gifyu.com/images/tuto-anime-manga.png)\n`$anime/manga Titre`\n[Afficher profil utilisateur](https://s11.gifyu.com/images/tuto-profil.png)\n`$profil @user/user#0000/userid`\n[Chercher un wallpaper](https://s11.gifyu.com/images/tuto-wallpaper.png)\n`$wallpaper Titre`\n[Récup une image par type](https://gifyu.com/)\n`/pics_v(1/2)`\n[Générer un mot de passe](https://gifyu.com/)\n`/passgen`\n[Traduire un texte](https://gifyu.com/)\n`/translate`\n[Convertir une valeur d'un autre format](https://gifyu.com/)\n`/conv`\n[(En/Dé)crypter un texte](https://gifyu.com/)\n`/crypt`\n[Générer un QrCode](https://gifyu.com/)\n`/qrgen`"
                     }
                 ]
             },
             "8": {
                 "title": "```💻 Commandes | p.8```",
-                "description": "> Bienvenue sur la page d'aide de {bot_user.name}, ici vous trouverez les infos les plus importantes sur les commandes du bot.",
-                "fields": [
-                    {
-                        "name": "",
-                        "value": "**```🌟 COMMANDES ADMINISTRATION```**\n[Définir le salon de commandes musicales](https://gifyu.com/)\n`/setcommandzik`\n[Définir le salon d'écoute musicale](https://gifyu.com/)\n`/setlistenzik`\n[Définir le salon d'anniversaire](https://gifyu.com/)\n`/setbirthday`\n[Gérer des autoroles](https://gifyu.com/)\n`/autorole`\n[Assign a role](https://gifyu.com/)\n`/setrole`\n[Gérer les flux RSS](https://gifyu.com/)\n`/rss`"
-                    }
-                ]
-            },
-            "9": {
-                "title": "```💻 Commandes | p.9```",
-                "description": "> Bienvenue sur la page d'aide de {bot_user.name}, ici vous trouverez les infos les plus importantes sur les commandes du bot.",
-                "fields": [
-                    {
-                        "name": "",
-                        "value": "**```🎁 COMMANDES BONUS```**\n[Afficher infos anime/manga](https://s11.gifyu.com/images/tuto-anime-manga.png)\n`$anime/manga Titre`\n[Afficher profil utilisateur](https://s11.gifyu.com/images/tuto-profil.png)\n`$profil @user/user#0000/userid`\n[Chercher un wallpaper](https://s11.gifyu.com/images/tuto-wallpaper.png)\n`$wallpaper Titre`\n[Récup une image par type](https://gifyu.com/)\n`/pics_v(1/2)`\n[Générer un mot de passe](https://gifyu.com/)\n`/passgen`\n[Traduire un texte](https://gifyu.com/)\n`/translate`\n[Convertir une valeur d'un autre format](https://gifyu.com/)\n`/conv`\n[(En/Dé)crypter un texte](https://gifyu.com/)\n`/crypt`\n[Générer un QrCode](https://gifyu.com/)\n`/qrgen`"
-                    }
-                ]
-            },
-            "10": {
-                "title": "```💻 Commandes | p.10```",
                 "description": "> Bienvenue sur la page d'aide de {bot_user.name}, ici vous trouverez les infos les plus importantes sur les commandes du bot.",
                 "fields": [
                     {
@@ -588,8 +568,6 @@
         "modifrole_result35":"Gérer les émojis",
         "modifrole_result36":"Utiliser les commandes slash",
         "modifrole_result37":"Changements",
-        "boost_result1":"Ho ! Un nouveau boost !",
-        "boost_result2":"🚀 Merci à",
         "ticket_result1":"Ticket de",
         "ticket_result2":"vous avez déjà un salon de support ouvert.",
         "ticket_result3":"Ticket de",
